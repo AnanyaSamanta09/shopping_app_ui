@@ -110,10 +110,12 @@ class HomeScreen extends StatelessWidget {
           onTap: (index){
 
           },
+          showUnselectedLabels: true,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.star_border_outlined),label: "Rewards"),
             BottomNavigationBarItem(icon: Icon(Icons.date_range),label: "Challenges"),
+            BottomNavigationBarItem(icon: Icon(Icons.person_sharp),label: "Profile"),
           ],
         ),
 
